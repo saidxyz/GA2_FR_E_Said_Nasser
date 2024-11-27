@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.neural_network import MLPRegressor
 from sklearn.model_selection import train_test_split
 
-###-------- TASK 2 --------###
+###========= TASK 2 =========##
 
 
 # 2a) function to read the data and create a data set using sliding window approach
@@ -76,7 +76,7 @@ def plot_decision_tree(predictions, y_test, data):
 plot_decision_tree(decision_tree_predictions, y_test, data_2022)
 
 
-###-------- TASK 3 --------###
+###========= TASK 3 =========##
 
 
 # trying some different hyperparamaters for varience
@@ -185,7 +185,7 @@ def plot_random_forest(decision_tree_predictions, ensemble_predictions, y_test, 
 plot_random_forest(decision_tree_predictions, ensemble_predictions, y_test, data_2022)
 
 
-###-------- TASK 4 --------###
+###========= TASK 4 =========##
 
 
 # Task 4a)
@@ -287,7 +287,7 @@ plot_mlp(
 )
 
 
-# ###-------- TASK 5 --------###
+###========= TASK 5 =========##
 
 
 # Task 5a)
